@@ -1,0 +1,11 @@
+<div class="row border rounded-3 mt-3 p-2">
+<a href="#" class="list-group-item clearfix" (click)="onSelect()">
+  <div class="float-start">
+      <h4 class="list-group-item-heading">{{recipeProp.name}}</h4>
+      <p class="list-group-item-text">{{recipeProp.description}}</p>
+  </div>
+  <span class="float-end">
+      <img [src]="recipeProp.imagePath" alt={{recipeProp.name}} class="img-responsive" style="max-height: 50px">
+  </span>
+</a>
+</div>

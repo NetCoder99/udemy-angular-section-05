@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="col-xs-12">
+        <img 
+            [src]="recipeProp.imagePath" 
+            alt="{{recipeProp.name}}" 
+            class="img-fluid"
+            style="max-height: 200px"
+            >
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <h1>{{recipeProp.name}}</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="btn-group ">
+            <button type="button" 
+                    class="button btn btn-primary dropdown-toggle" 
+                    id="btnGroup1"
+                    data-bs-toggle="dropdown" >
+                Manage<span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li class="ps-2"><a href="#">Shopping List</a></li>
+                <li class="ps-2"><a href="#">Edit Recipe</a></li>
+                <li class="ps-2"><a href="#">Delete Recipe</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        Description
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        Ingredients
+    </div>
+</div>
